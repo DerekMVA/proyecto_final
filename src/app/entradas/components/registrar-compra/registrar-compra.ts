@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-registrar-compra',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './registrar-compra.html',
   styleUrl: './registrar-compra.css'
 })

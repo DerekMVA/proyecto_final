@@ -1,1 +1,27 @@
-<p>registrar-compra works!</p>
+<div class="p-8">
+    <h1 class="text-3xl font-bold mb-6 text-gray-800">Registrar Nueva Compra</h1>
+    <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div>
+                <label class="block font-medium mb-1">Proveedor</label>
+                <select class="w-full p-2 border rounded-md">
+                    <option>Tech Distributors</option>
+                    <option>Componentes Globales</option>
+                </select>
+            </div>
+            <div>
+                <label class="block font-medium mb-1">Fecha de Compra</label>
+                <input type="date" class="w-full p-2 border rounded-md">
+            </div>
+        </div>
+        <div class="border-t pt-6">
+            <h2 class="text-xl font-semibold mb-4">Productos</h2>
+            <input type="text" placeholder="Buscar producto para agregar..." class="w-full p-2 border rounded-md mb-4">
+            <div class="flex justify-end">
+                <button class="bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700">
+                    Guardar Compra
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
