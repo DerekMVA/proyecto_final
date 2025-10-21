@@ -1,1 +1,33 @@
-<p>lista-ventas works!</p>
+<div class="p-8">
+    <div class="flex justify-between items-center mb-6">
+        <h1 class="text-3xl font-bold text-gray-800">Historial de Ventas</h1>
+        <a routerLink="/salidas/nueva"
+            class="bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700">
+            + Registrar Venta
+        </a>
+    </div>
+    <div class="bg-white shadow-md rounded-lg overflow-x-auto">
+        <table class="min-w-full">
+            <thead class="bg-gray-100">
+                <tr>
+                    <th class="p-4 text-left"># Factura</th>
+                    <th class="p-4 text-left">Cliente</th>
+                    <th class="p-4 text-left">Fecha</th>
+                    <th class="p-4 text-right">Monto Total</th>
+                    <th class="p-4 text-center">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-b hover:bg-gray-50">
+                    <td class="p-4">FAC-2025-001</td>
+                    <td class="p-4 font-medium">Carlos Rodríguez</td>
+                    <td class="p-4">21/10/2025</td>
+                    <td class="p-4 text-right">$1,250.00</td>
+                    <td class="p-4 text-center">
+                        <a href="#" class="text-blue-600 hover:underline">Ver Factura</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
