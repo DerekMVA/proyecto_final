@@ -1,0 +1,51 @@
+<div class="p-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <div class="lg:col-span-2">
+        <h1 class="text-3xl font-bold mb-6 text-gray-800">Registrar Nueva Venta</h1>
+        <input type="text" placeholder="Buscar producto para agregar..." class="w-full p-3 border rounded-md mb-6">
+
+        <div class="space-y-3">
+            <div class="flex items-center justify-between bg-white p-3 rounded-md shadow">
+                <div>
+                    <p class="font-bold">Teclado Mecánico RGB</p>
+                    <p class="text-sm text-gray-600">Stock: 25</p>
+                </div>
+                <div class="flex items-center gap-4">
+                    <span class="font-semibold text-lg">$75.00</span>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Agregar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-bold mb-4 border-b pb-3">Resumen del Pedido</h2>
+        <div class="space-y-4">
+            <div class="flex justify-between items-center">
+                <div>
+                    <p class="font-medium">Teclado Mecánico RGB</p>
+                    <p class="text-sm text-gray-500">Cantidad: 1</p>
+                </div>
+                <p class="font-semibold">$75.00</p>
+            </div>
+        </div>
+
+        <div class="mt-6 border-t pt-4 space-y-2">
+            <div class="flex justify-between">
+                <p>Subtotal:</p>
+                <p>$75.00</p>
+            </div>
+            <div class="flex justify-between">
+                <p>Impuestos (13%):</p>
+                <p>$9.75</p>
+            </div>
+            <div class="flex justify-between text-xl font-bold mt-2">
+                <p>Total:</p>
+                <p>$84.75</p>
+            </div>
+        </div>
+
+        <button class="bg-green-600 text-white w-full py-3 mt-6 rounded-md text-lg font-bold hover:bg-green-700">
+            Finalizar Venta
+        </button>
+    </div>
+</div>

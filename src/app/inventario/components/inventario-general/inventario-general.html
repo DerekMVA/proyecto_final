@@ -1,0 +1,62 @@
+<div class="p-8">
+    <h1 class="text-3xl font-bold mb-6 text-gray-800">Control de Inventario</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+        <input type="text" placeholder="Buscar por nombre o código..." class="p-2 border rounded-md">
+        <select class="p-2 border rounded-md">
+            <option>Todas las categorías</option>
+            <option>Componentes</option>
+            <option>Laptops</option>
+            <option>Periféricos</option>
+        </select>
+        <select class="p-2 border rounded-md">
+            <option>Todos los estados</option>
+            <option>Nuevo</option>
+            <option>Outlet</option>
+            <option>En reparación</option>
+        </select>
+        <button class="bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700">Filtrar</button>
+    </div>
+
+    <div class="bg-white shadow-md rounded-lg overflow-x-auto">
+        <table class="min-w-full">
+            <thead class="bg-gray-100">
+                <tr>
+                    <th class="p-4 text-left">Código</th>
+                    <th class="p-4 text-left">Nombre</th>
+                    <th class="p-4 text-left">Categoría</th>
+                    <th class="p-4 text-center">Stock</th>
+                    <th class="p-4 text-center">Estado</th>
+                    <th class="p-4 text-right">Precio</th>
+                    <th class="p-4 text-center">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-b hover:bg-gray-50">
+                    <td class="p-4">CMP-001</td>
+                    <td class="p-4 font-medium">Procesador Ryzen 5</td>
+                    <td class="p-4">Componentes</td>
+                    <td class="p-4 text-center">15</td>
+                    <td class="p-4 text-center"><span
+                            class="bg-green-200 text-green-800 px-2 py-1 rounded-full text-xs">Nuevo</span></td>
+                    <td class="p-4 text-right">$150.00</td>
+                    <td class="p-4 text-center">
+                        <a href="#" class="text-blue-600 hover:underline">Ver Detalles</a>
+                    </td>
+                </tr>
+                <tr class="border-b hover:bg-gray-50">
+                    <td class="p-4">LAP-002</td>
+                    <td class="p-4 font-medium">Laptop Gamer Nitro 5</td>
+                    <td class="p-4">Laptops</td>
+                    <td class="p-4 text-center">8</td>
+                    <td class="p-4 text-center"><span
+                            class="bg-yellow-200 text-yellow-800 px-2 py-1 rounded-full text-xs">Outlet</span></td>
+                    <td class="p-4 text-right">$850.00</td>
+                    <td class="p-4 text-center">
+                        <a href="#" class="text-blue-600 hover:underline">Ver Detalles</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
