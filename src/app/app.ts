@@ -8,4 +8,4 @@ import { Sidebar } from './core/components/sidebar/sidebar';
   imports: [RouterOutlet, Sidebar],
   templateUrl: './app.html',
 })
-export class AppComponent {}
+export class App {}
