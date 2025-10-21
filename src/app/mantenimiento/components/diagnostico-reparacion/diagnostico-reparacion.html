@@ -1,1 +1,28 @@
-<p>diagnostico-reparacion works!</p>
+<div class="p-8">
+    <h1 class="text-3xl font-bold mb-2 text-gray-800">Diagnóstico y Reparación: #GAR-001</h1>
+    <p class="text-lg text-gray-600 mb-6">Técnico Asignado: Jackson Medina</p>
+
+    <div class="bg-white p-6 rounded-lg shadow-md space-y-6">
+        <div>
+            <h2 class="text-xl font-semibold mb-2">Problema Reportado por Cliente</h2>
+            <p class="text-gray-700 p-4 bg-gray-50 rounded-md border">"La laptop no enciende la pantalla, aunque las
+                luces del teclado sí funcionan."</p>
+        </div>
+
+        <div>
+            <label for="diagnostico" class="block text-xl font-semibold mb-2">Diagnóstico del Técnico</label>
+            <textarea id="diagnostico" rows="4" class="w-full p-2 border rounded-md"></textarea>
+        </div>
+
+        <div>
+            <h2 class="text-xl font-semibold mb-2">Piezas Utilizadas</h2>
+            <input type="text" placeholder="Buscar pieza en inventario..." class="w-full p-2 border rounded-md mb-2">
+        </div>
+
+        <div class="border-t pt-6 flex justify-end">
+            <button class="bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700">
+                Finalizar Reparación
+            </button>
+        </div>
+    </div>
+</div>

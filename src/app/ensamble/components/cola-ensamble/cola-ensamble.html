@@ -1,1 +1,30 @@
-<p>cola-ensamble works!</p>
+<div class="p-8">
+    <h1 class="text-3xl font-bold mb-6 text-gray-800">Cola de Ensambles Pendientes</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="flex justify-between items-center mb-3">
+                <h2 class="text-xl font-bold">Orden #ENS-001</h2>
+                <span class="bg-blue-200 text-blue-800 px-2 py-1 rounded-full text-xs">Pendiente</span>
+            </div>
+            <p class="text-gray-600 mb-1"><span class="font-medium">PC de Escritorio Gamer</span></p>
+            <p class="text-gray-600 mb-4"><span class="font-medium">Cliente:</span> Carlos Rodríguez</p>
+            <a routerLink="/ensamble/ENS-001"
+                class="w-full text-center block bg-gray-800 text-white font-bold py-2 px-4 rounded-lg hover:bg-gray-900">
+                Iniciar Ensamble
+            </a>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="flex justify-between items-center mb-3">
+                <h2 class="text-xl font-bold">Orden #ENS-002</h2>
+                <span class="bg-yellow-200 text-yellow-800 px-2 py-1 rounded-full text-xs">En Proceso</span>
+            </div>
+            <p class="text-gray-600 mb-1"><span class="font-medium">PC de Oficina</span></p>
+            <p class="text-gray-600 mb-4"><span class="font-medium">Cliente:</span> Empresa ABC</p>
+            <a routerLink="/ensamble/ENS-002"
+                class="w-full text-center block bg-gray-800 text-white font-bold py-2 px-4 rounded-lg hover:bg-gray-900">
+                Continuar Ensamble
+            </a>
+        </div>
+    </div>
+</div>
