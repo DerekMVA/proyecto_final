@@ -4,7 +4,7 @@ import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-cola-mantenimiento',
-  imports: [],
+  imports: [CommonModule, RouterLink],
   templateUrl: './cola-mantenimiento.html',
   styleUrl: './cola-mantenimiento.css'
 })
