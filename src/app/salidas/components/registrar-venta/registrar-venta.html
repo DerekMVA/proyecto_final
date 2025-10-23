@@ -1,15 +1,17 @@
- <a routerLink="/salidas"
-            class="bg-blue-950 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700">
-            Historial de Ventas
-        </a>
-<a routerLink="/salidas/clientes"
-            class="bg-blue-950 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700">
-            Registro de clientes
-        </a>
+<div class="flex justify-end items-center gap-4 mb-6 flex-wrap">
+    <a routerLink="/salidas"
+        class="flex-shrink-0 bg-blue-950 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700">
+        Historial de Ventas
+    </a>
+    <a routerLink="/salidas/clientes"
+        class="flex-shrink-0 bg-blue-950 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700">
+        Registro de clientes
+    </a>
+</div>
 <div class="p-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
     <div class="lg:col-span-2">
         <h1 class="text-3xl font-bold mb-6 text-gray-800">Registrar Nueva Venta</h1>
-         
+
         <input type="text" placeholder="Buscar producto para agregar..." class="w-full p-3 border rounded-md mb-6">
 
         <div class="space-y-3">
@@ -31,11 +33,11 @@
         <div class="mt-6 border-b pt-4 space-y-2">
             <div class="flex justify-between">
                 <p>Cliente:</p>
-<select id="cliente" name="cliente"
-  class="px-3 py-1.5 border border-gray-300 rounded-md bg-white text-sm text-gray-700 shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-700 focus:border-blue-700 w-48">
-  <option value="0">Selecciona un cliente</option>
-  <option value="1">Carlos Rodríguez</option>
-</select>
+                <select id="cliente" name="cliente"
+                    class="px-3 py-1.5 border border-gray-300 rounded-md bg-white text-sm text-gray-700 shadow-sm focus:outline-none focus:ring-1 focus:ring-blue-700 focus:border-blue-700 w-48">
+                    <option value="0">Selecciona un cliente</option>
+                    <option value="1">Carlos Rodríguez</option>
+                </select>
 
             </div>
         </div>

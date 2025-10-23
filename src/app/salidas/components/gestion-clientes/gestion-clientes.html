@@ -1,10 +1,16 @@
 <div class="p-8">
     <div class="flex justify-between items-center mb-6">
         <h1 class="text-3xl font-bold text-gray-800">Gestión de Clientes</h1>
-        <a routerLink="/salidas/nueva"
-            class="bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700">
-            Regresar
-        </a>
+        <div class="flex items-center gap-4 flex-shrink-0">
+            <a routerLink="/salidas"
+                class="bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700">
+                Historial de Ventas
+            </a>
+            <a routerLink="/salidas/nueva"
+                class="bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700">
+                + Registrar Venta
+            </a>
+        </div>
     </div>
     <div class="bg-white shadow-md rounded-lg overflow-x-auto">
         <table class="min-w-full">
@@ -22,7 +28,11 @@
                     <td class="p-4">carlos.r@email.com</td>
                     <td class="p-4">8765-4321</td>
                     <td class="p-4 text-center">
-                        <a href="#" class="text-blue-600 hover:underline">Editar</a>
+                        <div class="flex items-center justify-center gap-4">
+                            <a href="#" class="text-blue-600 hover:underline">Crear</a>
+                            <a href="#" class="text-blue-600 hover:underline">Editar</a>
+                            <a href="#" class="text-blue-600 hover:underline">Eliminar</a>
+                        </div>
                     </td>
                 </tr>
             </tbody>
